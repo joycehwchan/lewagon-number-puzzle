@@ -42,6 +42,7 @@ td p {
 
 .empty {
   background: black;
+  cursor: auto;
 }
 
 button {
@@ -50,6 +51,7 @@ button {
 
 .hint {
   margin-top: 16px;
+  width: 428px;
   opacity: 0;
   transition: .3s opacity ease;
 }
@@ -61,6 +63,7 @@ button {
 pre {
   margin: 4px 0;
   padding: 0;
-  width: fit-content;
+  /* width: fit-content; */
+  width: 428px;
   padding: 4px 8px;
 }
