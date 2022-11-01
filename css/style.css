@@ -1,0 +1,66 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+table {
+  width: 428px;
+  border: 10px solid black;
+  background: black;
+}
+
+tr {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+td {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: 1px;
+  background: white;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+td p {
+  margin: 0;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.empty p {
+  color: white;
+}
+
+.empty {
+  background: black;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.hint {
+  margin-top: 16px;
+  opacity: 0;
+  transition: .3s opacity ease;
+}
+
+.hint.active {
+  opacity: 1;
+}
+
+pre {
+  margin: 4px 0;
+  padding: 0;
+  width: fit-content;
+  padding: 4px 8px;
+}
