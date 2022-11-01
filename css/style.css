@@ -60,6 +60,10 @@ button {
   opacity: 1;
 }
 
+li {
+  margin-bottom: 2rem;
+}
+
 pre {
   margin: 4px 0;
   padding: 0;

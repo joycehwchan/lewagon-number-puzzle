@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>JS Puzzle</title>
+  <title>Number Puzzle</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,17 +36,17 @@
     </tr>
   </table>
 
-  <button id="show-hint" class="btn btn-primary btn-lg">Condition to move a box</button>
+  <button id="show-hint" class="btn btn-primary btn-lg">Here's a hint</button>
 
   <div class="hint">
       <li>
         If clicked box is on the <strong>same row</strong> as empty box (same row index), and clicked box is <strong>beside</strong> the empty box (cell index difference is 1 or -1).
-        <pre>boxRowId === emptyBoxRowId && (Math.abs(boxCellId - emptyBoxCellId) === 1)</pre>
+        <!-- <pre>boxRowId === emptyBoxRowId && (Math.abs(boxCellId - emptyBoxCellId) === 1)</pre> -->
         <br>
       </li>
       <li>
         If clicked box is on the <strong>same column</strong> as empty box (same cell index), and clicked box is <strong>above/below</strong> the empty box (row index difference is 1 or -1).
-        <pre>boxCellId === emptyBoxCellId && (Math.abs(boxRowId - emptyBoxRowId) === 1)</pre>
+        <!-- <pre>boxCellId === emptyBoxCellId && (Math.abs(boxRowId - emptyBoxRowId) === 1)</pre> -->
       </li>
   </div>
 
