@@ -72,8 +72,8 @@ pre {
   padding: 4px 8px;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   table {
     scale: 0.8;
   }
-}
+} */
