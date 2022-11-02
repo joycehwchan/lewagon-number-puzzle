@@ -52,8 +52,9 @@ button {
 .hint {
   margin-top: 16px;
   width: 428px;
+  padding: 28px;
   opacity: 0;
-  transition: .3s opacity ease;
+  transition: 0.3s opacity ease;
 }
 
 .hint.active {
